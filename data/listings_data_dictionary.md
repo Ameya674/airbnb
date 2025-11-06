@@ -13,8 +13,8 @@ This document explains the meaning, units/encodings, and shows an example value 
 | availability_eoy | Availability count over the specified lookahead window. | Days (count) | int64 | 185 |
 | bathrooms | Bathroom count/description. | Count (may include halves) | float64 | 1.0 |
 | bathrooms_text | Bathroom count/description. | Text label | object | 1 bath |
-| bedrooms | Capacity/room count. | Count | float64 | 1.0 |
-| beds | Capacity/room count. | Count | float64 | 2.0 |
+| bedrooms | Bedroom count. | Count | float64 | 1.0 |
+| beds | Bed count. | Count | float64 | 2.0 |
 | calculated_host_listings_count | Derived count of listings associated with the host. | Count | int64 | 1 |
 | calculated_host_listings_count_entire_homes | Derived count of listings associated with the host. | Count | int64 | 1 |
 | calculated_host_listings_count_private_rooms | Derived count of listings associated with the host. | Count | int64 | 0 |
